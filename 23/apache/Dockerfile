@@ -10,7 +10,8 @@ RUN set -ex; \
         bzip2 \
         busybox-static \
         libldap-common \
-        fuseiso \
+        fuse2fs \
+        ntfs-3g \
     ; \
     rm -rf /var/lib/apt/lists/*; \
     \
