@@ -10,6 +10,7 @@ RUN set -ex; \
         bzip2 \
         busybox-static \
         libldap-common \
+        fuseiso \
     ; \
     rm -rf /var/lib/apt/lists/*; \
     \
@@ -41,7 +42,6 @@ RUN set -ex; \
         libzip-dev \
         libwebp-dev \
         libgmp-dev \
-        fuseiso \
     ; \
     \
     debMultiarch="$(dpkg-architecture --query DEB_BUILD_MULTIARCH)"; \
