@@ -12,6 +12,8 @@ RUN set -ex; \
         libldap-common \
         fuse2fs \
         ntfs-3g \
+        exfat-fuse \
+        exfat-utils \
     ; \
     rm -rf /var/lib/apt/lists/*; \
     \
