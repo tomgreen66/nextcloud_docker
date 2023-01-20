@@ -11,6 +11,10 @@ RUN set -ex; \
         busybox-static \
         libldap-common \
         libmagickcore-6.q16-6-extra \
+        fuse2fs \
+        ntfs-3g \
+        exfat-fuse \
+        exfat-utils \
     ; \
     rm -rf /var/lib/apt/lists/*; \
     \
